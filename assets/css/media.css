@@ -1,0 +1,74 @@
+/* Small devices (landscape phones) */
+@media (min-width: 576px) and (max-width: 767px) {
+	[class *= "col-"] {
+		width: 100%;
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+	
+	.logo {
+		text-align: center;
+		height: 2.7em;
+	}
+	
+	ul {
+		height: 2.2em;
+	}
+	
+	li {
+		padding: 0.5em 0.8em;
+		height: 2.2em;
+		font-size: 0.9em;
+	}
+	
+	li:hover {
+	border-bottom: 4px solid deeppink;
+	}
+	
+	li:active {
+	border-bottom: 4px solid deeppink;
+	}
+	
+	footer {
+	height: 60px;
+	padding-top: 10px;
+}
+	
+}
+
+/* Extra small devices (portrait phones) */
+@media (min-width: 355px) and (max-width: 575px) {
+	[class *= "col-"] {
+		width: 100%;
+		padding-left: 2em;
+		padding-right: 2em;
+	}
+	
+	.logo {
+		text-align: center;
+		height: 2.7em;
+	}
+	
+	ul {
+		height: 2.2em;
+	}
+	
+	li {
+		padding: 0.5em 0.8em;
+		height: 2.2em;
+		font-size: 0.9em;
+	}
+	
+	li:hover {
+	border-bottom: 4px solid deeppink;
+	}
+	
+	li:active {
+	border-bottom: 4px solid deeppink;
+	}
+	
+	footer {
+	height: 60px;
+	padding-top: 10px;
+}
+}
